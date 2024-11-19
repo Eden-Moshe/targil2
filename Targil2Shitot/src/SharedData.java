@@ -1,6 +1,8 @@
+import java.util.ArrayList;
+
 public class SharedData 
 {
-	private ArrayList[] array;
+	private ArrayList<Integer> array; // Changed from int[] to ArrayList<Integer>
 	private boolean [] winArray;
 	private boolean flag;
 	private final int b;
@@ -21,10 +23,10 @@ public class SharedData
 		this.winArray = winArray;
 	}
 
-	// Getter for the array
+    // Getter for the array
     public ArrayList<Integer> getArray() {
-        return array;
-    }
+        return array;
+    }
 
 	public int getB() 
 	{
