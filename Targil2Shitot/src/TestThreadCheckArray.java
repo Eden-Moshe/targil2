@@ -21,13 +21,11 @@ public class TestThreadCheckArray {
 			thread2 = new Thread(new ThreadCheckArray(sd), "thread2");
 			thread1.start();
 			thread2.start();
-			long startTime = System.nanoTime();
 			try 
 			{
 				thread1.join();
 				thread2.join();
 			} 
-			long endTime = System.nanoTime();
 			catch (InterruptedException e)
 			{
 				e.printStackTrace();
