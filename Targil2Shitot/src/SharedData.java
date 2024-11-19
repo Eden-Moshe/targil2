@@ -47,26 +47,44 @@ public class SharedData
 		return winArray;
 	}
 
+	/** Description of setWithArray()
+	 * @param winArray is saved as the classes' value winArray
+	 */
 	public void setWinArray(boolean [] winArray) 
 	{
 		this.winArray = winArray;
 	}
 
-    // Getter for the array
+
+    /** Description of getArray()
+     * Getter for the array
+     * @return the array
+     */
     public ArrayList<Integer> getArray() {
         return array;
     }
 
+    /** Description of getB()
+     * Getter for b
+     * @return b
+     */
 	public int getB() 
 	{
 		return b;
 	}
 
+	/** Description of getFlag()
+	 * getter for value flag
+	 * @return boolean value of flag
+	 */
 	public boolean getFlag() 
 	{
 		return flag;
 	}
 
+	/** Description of setFlag()
+	 * setter for value flag
+	 */
 	public void setFlag(boolean flag) {
 		this.flag = flag;
 	}
